@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="https://i.postimg.cc/BZBgr1xx/6-23-2022-18.jpg" alt="Slide 1">
+                    <div class="slide-content">
+                        <h2>Adventure Awaits</h2>
+                        <p>Discover the thrill of the open waters</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.postimg.cc/HndtJpCc/Hot-Spots-Charters-1.jpg" alt="Slide 2">
+                    <div class="slide-content">
+                        <h2>Expert Navigation</h2>
+                        <p>Professional guides for your journey</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.postimg.cc/Dy7C0c2j/6-23-2022-60.jpg" alt="Slide 3">
+                    <div class="slide-content">
+                        <h2>Perfect Moments</h2>
+                        <p>Create memories that last forever</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.postimg.cc/tR3S9cHn/HSC8-1-23-1.jpg" alt="Slide 4">
+                    <div class="slide-content">
+                        <h2>Ocean Experience</h2>
+                        <p>Feel the freedom of the sea</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.postimg.cc/3NTtgX2w/HSC8-1-23-9.jpg" alt="Slide 5">
+                    <div class="slide-content">
+                        <h2>Scenic Views</h2>
+                        <p>Breathtaking vistas await</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="nav-btn prev-btn" aria-label="Previous slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m15 18-6-6 6-6"/>
+                    </svg>
+                </button>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <button class="nav-btn next-btn" aria-label="Next slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m9 18 6-6-6-6"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="thumbnails"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
